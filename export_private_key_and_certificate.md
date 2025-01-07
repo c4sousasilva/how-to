@@ -12,7 +12,6 @@ Example
 cd C:\Program Files\Git\usr\bin
 openssl.exe pkcs12 -in C:\Temp\CASILVA03\CASILVA03.p12 -nocerts -out C:\Temp\CASILVA03\CASILVA03.key
 ```
-![Alt text](export_private_key_and_certificate_001.png "")
 
 ## Export certificate OpenSSL
 
@@ -29,4 +28,5 @@ cd C:\Program Files\Git\usr\bin
 openssl pkcs12 -in C:\Temp\CASILVA03\CASILVA03.p12 -clcerts -nokeys -out C:\Temp\CASILVA03\CASILVA03.crt
 ```
 
+## Result
 ![Alt text](export_private_key_and_certificate_001.png "")
