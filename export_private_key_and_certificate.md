@@ -10,6 +10,8 @@ Example
 
 ```console
 cd C:\Program Files\Git\usr\bin
+```
+```console
 openssl.exe pkcs12 -in C:\Temp\CASILVA03\CASILVA03.p12 -nocerts -out C:\Temp\CASILVA03\CASILVA03.key
 ```
 
@@ -25,6 +27,8 @@ Example
 
 ```console
 cd C:\Program Files\Git\usr\bin
+```
+```console
 openssl pkcs12 -in C:\Temp\CASILVA03\CASILVA03.p12 -clcerts -nokeys -out C:\Temp\CASILVA03\CASILVA03.crt
 ```
 
